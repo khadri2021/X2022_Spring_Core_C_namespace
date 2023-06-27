@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+		https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="cust" name="c-namespace" class="com.khadri.spring.core.Customer" c:name="JHON"/>
+
+    <bean id="cust1" class="com.khadri.spring.core.Customer" c:name="ALLEN"/>
+
+</beans>
